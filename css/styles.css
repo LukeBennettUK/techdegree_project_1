@@ -155,10 +155,10 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
