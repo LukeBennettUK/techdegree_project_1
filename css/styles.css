@@ -84,16 +84,20 @@ BANNER
 
 /* INDEX */
 .kilimanjaro {
-  background: url('../images/Mt-Kilimanjaro.jpg') no-repeat top center ;
+  background: url('../images/Mt-Kilimanjaro.jpg') no-repeat top center;
   background-size: cover;
+}
 
 /* EXPERIENCE */
+.experience {
+  background: url('../images/experience.jpg') no-repeat top center ;
+  background-size: cover;
+}
 
 
 /* CONTACT */
 .contact {
   background: url('../images/contact.jpg') no-repeat top center ;
-  background-size: cover;
 }
 
 
@@ -212,10 +216,6 @@ PAGE: EXPERIENCE
   list-style: none;
 }
 
-.experience {
-  background: url('../images/experience.jpg') no-repeat top center ;
-  background-size: cover;
-}
 
 
 /*******************************************
@@ -305,7 +305,7 @@ a:hover {
 
 .card {
   background: #363636;
-  border-bottom: 4px solid #363636;
+  border-bottom: 4px solid;
 }
 
 .card:hover {
