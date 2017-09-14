@@ -1,3 +1,13 @@
+.kilimanjaro-large {
+  display: none;
+}
+.experience-large {
+  display: none;
+}
+.contact-large {
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
 
   .flex {
@@ -11,12 +21,12 @@
 
   .nav {
     max-width: 1200px;
-    padding: 0 30px;
   }
 
   /* Styles for larger screens */
   header {
     min-height: 470px;
+    max-height: 470px;
   }
 
   main {
@@ -33,4 +43,26 @@
     margin: 40px auto;
   }
 
+}
+
+
+@media screen and (min-width:935px) {
+  .kilimanjaro {
+    display: none;
+  }
+  .kilimanjaro-large {
+    display: block;
+  }
+    .experience {
+    display: none;
+  }
+  .experience-large {
+    display: block;
+  }
+    .contact {
+    display: none;
+  }
+  .contact-large {
+    display: block;
+  }
 }
