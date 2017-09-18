@@ -63,15 +63,15 @@ header .profile-image {
   height: 150px;
   border-radius: 5%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .4s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(12deg);
 }
 
 .tag {
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   display: table;
   margin: 10px auto;
 }
@@ -81,7 +81,6 @@ header .profile-image:hover {
   width: 55%;
   max-width: 410.67px;
 }
-
 
 
 /******************************************************
@@ -129,6 +128,7 @@ MAIN CONTENT: CARDS
   max-width: 500px;
   text-align: left;
   transition: all .5s;
+  border-radius: 6px;
 }
 
 ul.skills {
@@ -149,12 +149,24 @@ main h2 {
   font-size: 1.25em;
 }
 
+.card:hover h2 {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.card:hover p {
+  transition: all 0.5s;
+}
+
+.card:hover .experience_skills {
+  transition: all 0.5s;
+}
+  
 .card hr {
   margin: 50px auto;
 }
 
 .card img {
-  border: 1px solid #CACFD5;
   padding: 5px;
   width: 100%;
   height: auto;
@@ -235,6 +247,42 @@ PAGE: EXPERIENCE
 }
 
 
+/*******************************************
+Passion Gallery
+********************************************/
+
+.passion-gallery img {
+  max-width: 300px;
+}
+
+.passion-gallery img:hover {
+  transform: scale(1.08);
+  transition: all 1s;
+}
+
+.passion blockquote {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.passion p {
+  margin-top: 100px;
+}
+
+.passion h1 {
+  padding: 10px;
+  display: table;
+  border-radius: 6px;
+  margin: 10px auto;
+}
+
+.passion blockquote {
+  transition: 3s;
+}
+
+.passion:hover blockquote {
+  transform: scale(1.1);
+}
 
 /*******************************************
 PAGE: CONTACT
@@ -321,6 +369,18 @@ a:hover {
   border-color: #8FCFFF;
 }
 
+.card img {
+  border: 1px solid #CACFD5;
+}
+
+.card:hover .experience_skills {
+  color: white;
+}
+
+.card:hover p {
+  color: white;
+}
+
 /* Skill Boxes */
 
 .skills li {
@@ -345,4 +405,23 @@ a:hover {
 
 .contact-info a:hover {
   color: #808080;
+}
+
+/* Passion Gallery */
+
+.passion h1 {
+  color: #363636;
+  border: solid 3px #363636;
+}
+
+.passion {
+  border-bottom: 5px solid #363636;
+}
+
+.passion p {
+  color: #363636;
+}
+
+.passion:hover blockquote {
+  color: #363636;
 }
