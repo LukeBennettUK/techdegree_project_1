@@ -61,7 +61,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 5%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -263,7 +263,7 @@ COLOR
 
 body {
   color: #CACFD5;
-  background: #F2F2F2;
+  background: #Fff;
 }
 
 /* Link Styles */
