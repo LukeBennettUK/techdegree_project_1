@@ -97,30 +97,30 @@ BANNER
 
 /* INDEX */
 .kilimanjaro {
-  background: url('../images/Mt-Kilimanjaro.jpg') no-repeat top center;
+  background: url('images/Mt-Kilimanjaro.jpg') no-repeat top center;
   background-size: cover;
 }
 .kilimanjaro-large {
-  background: url('../images/kilimanjaro-1688.jpg') no-repeat top center;
+  background: url('images/kilimanjaro-1688.jpg') no-repeat top center;
   background-size: cover;
 }
 /* EXPERIENCE */
 .experience {
-  background: url('../images/experience.jpg') no-repeat top center ;
+  background: url('images/experience.jpg') no-repeat top center ;
   background-size: cover;
 }
 .experience-large {
-  background: url('../images/experience-1688.jpg') no-repeat top center;
+  background: url('images/experience-1688.jpg') no-repeat top center;
   background-size: cover;
 }
 
 /* CONTACT */
 .contact {
-  background: url('../images/contact.jpg') no-repeat top center ;
+  background: url('images/contact.jpg') no-repeat top center ;
   background-size: cover;
 }
 .contact-large {
-  background: url('../images/contact-1688.jpg') no-repeat top center;
+  background: url('images/contact-1688.jpg') no-repeat top center;
   background-size: cover;
 }
 
@@ -222,10 +222,10 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(../images/twitter.svg);
+  background-image: url(images/twitter.svg);
 }
 a.github {
-  background-image: url(../images/github.svg);
+  background-image: url(images/github.svg);
 }
 a.social:hover {
   opacity: 1;
