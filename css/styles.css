@@ -1,4 +1,6 @@
-/* Global Layout Set-up */
+/*****************************************************
+GLOBAL LAYOUT SET-UP
+******************************************************/
 * {
   box-sizing: border-box;
 }
@@ -10,7 +12,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Section Styles */
+strong, b {
+  font-size: 1.1em;
+}
+
+
 /******************************************************
 NAVIGATION
 ******************************************************/
@@ -147,11 +153,11 @@ main h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.25em;
+  transition: all 0.5s;
 }
 
 .card:hover h2 {
   transform: scale(1.1);
-  transition: all 0.5s;
 }
 
 .card:hover p {
@@ -265,8 +271,12 @@ Passion Gallery
   font-size: 1.5em;
 }
 
-.passion p {
-  margin-top: 100px;
+.passion-para-1  {
+  margin: 100px 0 0;
+}
+
+.passion-para-2  {
+  margin-top: 0;
 }
 
 .passion h1 {
